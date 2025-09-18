@@ -1,14 +1,45 @@
 # Tripleten web_project_around_express
-## Demostración del proyecto:
-**Consulta de usuarios:**
-La ruta de acceso utilizada fue: http://localhost:3000/users  
-La demostración del funcionamiento se encuentra en: https://youtu.be/dVcjFrTKorg  
+## Nombre del proyecto: Sitio Web Around the US - Tripleten
+### Descripción del proyecto: 
 
-**Consulta de tarjetas:**
-La ruta de acceso utilizada fue: http://localhost:3000/users/dbfe53c3c4d568240378b0c6  
-La demostración del funcionamiento se encuentra en: https://youtu.be/5MDW0ovHPi4  
+Creación de servidor con Express.js
 
-## Acerca del proyecto:
-Este proyecto forma parte de los proyectos del Bootcamp de Tripleten. Consiste en crear un servidor desde cero, para recibir datos de un archivo JSON que contiene datos de usuarios y tarjetas.  
+  * Se crea un servidor con express.js
+  * Se configura el servidor para que se pueda acceder a él desde el navegador
+  * Se crean las rutas para obtener datos de usuarios y tarjetas a través de endpoints
 
-**Tecnologías usadas:** JavaScript, Node.js, Express, Git
+***
+
+### Tecnologías usadas:
+  El sitio web esta diseñada con las siguientes tecnologías:
+
+  * El lenguaje de programación para escribir la lógica y funcionalidad del backend es **Node Js** y **express.js**.
+
+***
+
+### Despliegue en la web:
+  La página web esta desplegada en Github Pages y se aloja en el siguiente link: **AGREGAR link**
+***
+
+
+## Rutas:
+
+* **GET /users**: Obtiene todos los usuarios.
+
+* **GET /users/:id**: Obtiene un usuario específico por el Id.
+
+* **POST /users**: Crea un usuario.
+
+* **PATCH /users/me**: Actualiza información del usuario.
+
+* **PATCH /users/me/avatar**: Actualiza el avatar del usuario.
+
+* **GET /cards**: Obtiene todas las tarjetas.
+
+* **POST /cards**: Crea una tarjeta.
+
+* **DELETE /cards/:cardId**: Elimina una tarjeta específica.
+
+* **PUT /cards/:cardId/likes**: Agrega un like a una tarjeta.
+
+* **DELETE /cards/:cardId/likes**: Elimina un like de una tarjeta.
