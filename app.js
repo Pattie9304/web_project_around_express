@@ -16,8 +16,8 @@ app.use((req, res, next) => {
 });
 
 app.use(express.json());
-app.use("/", usersRouter);
-app.use("/", cardsRouter);
+app.use("/", usersRoutes);
+app.use("/", cardsRoutes);
 
 app.listen(PORT, () => { console.log(`El servidor está corriendo en el puerto ${PORT}`); });
 
